@@ -47,3 +47,36 @@ for (var row = 0; row < 26; row++){
 		
 	}
 }
+
+/* Exercise lesson 5.6 */
+
+veces ="";
+
+function laugh(num){
+	for (var numero = num;numero > 0; numero= numero -1) {
+		veces = veces + "ha";
+	}
+	(num>0)? veces = veces +"!":veces ;
+	return veces;
+}
+
+console.log(laugh(3));
+
+/* Exercise lesson 5.16 */
+
+// creates a line of * for a given length
+function makeLine(length) {
+    var line = "";
+    for (var j = 1; j <= length; j++) {
+        line += "* ";
+    }
+    return line + "\n";
+}
+
+function buildTriangle(num){
+	for (var x = 1; x<= num; x++) {
+		console.log(makeLine(x));
+	}
+}
+
+console.log(buildTriangle(10));
