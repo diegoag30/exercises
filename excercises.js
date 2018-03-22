@@ -30,3 +30,20 @@ while (num >=0) {
 for (var x = 9; x >=1; x = x-1){
 	console.log("hello " + x);
 }
+
+/* Exercise lesson 14 */
+var solution = 1;
+
+for(var x = 12; x > 0; x = x-1) {
+	solution = solution *x;
+}
+console.log(solution);
+
+/* Exercise lesson 14 */
+
+for (var row = 0; row < 26; row++){
+	for (var seat = 0; seat < 100; seat++) {
+		console.log(row+ "-" + seat)
+		
+	}
+}
