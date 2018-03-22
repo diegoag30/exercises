@@ -10,3 +10,17 @@ while (x<21) {
     console.log(toPrint);// print Julia, James, or JuliaJames
     x = x+1;// increment x 
 }
+
+/* Song Excercise 5 */
+
+var num = 99;
+var bottle;
+var song;
+
+while (num >=0) {
+    bottle = (num !=1 ?" bottles": " bottle");
+    song = num + bottle + " of juice on the wall! " + num + bottle +
+    "  of juice! Take one down, pass it around " + num + bottle +"  of juice on the wall!"; // check value of num
+    console.log(song);// print lyrics using num
+    num = num-1;// decrement num
+}
