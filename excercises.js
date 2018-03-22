@@ -24,3 +24,9 @@ while (num >=0) {
     console.log(song);// print lyrics using num
     num = num-1;// decrement num
 }
+
+/* Exercise lesson 11 */
+
+for (var x = 9; x >=1; x = x-1){
+	console.log("hello " + x);
+}
