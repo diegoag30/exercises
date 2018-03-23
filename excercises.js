@@ -74,9 +74,10 @@ function makeLine(length) {
 }
 
 function buildTriangle(num){
+	var line = "";
 	for (var x = 1; x<= num; x++) {
-		console.log(makeLine(x));
+		line += makeLine(x);
 	}
+	return line
 }
 
-console.log(buildTriangle(10));
