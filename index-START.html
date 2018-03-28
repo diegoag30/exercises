@@ -11,7 +11,7 @@
       <div class="clock-face">
         <div class="hand hour-hand"></div>
         <div class="hand min-hand"></div>
-        <div class="hand second-hand"></div>
+        <div class="hand second-hand"></div>  <!--Aqui esta second-hand-->
       </div>
     </div>
 
@@ -53,11 +53,11 @@
       position: relative;
       width: 100%;
       height: 100%;
-      transform: translateY(-3px); /* account for the height of the clock hands */
+      transform: translateY(-3px); 
     }
 
-    .hand {
-      width:50%;
+    .hand {  
+      width:50%;    /* Aqui esta la clase hand */
       height:6px;
       background:black;
       position: absolute;
@@ -71,7 +71,7 @@
   </style>
 
   <script>
-    const secondHand = document.querySelector('.second-hand');
+    const secondHand = document.querySelector('.second-hand'); /* Duda aqui. ¿ Porque se llama asi a second-hand? */
     const minHand = document.querySelector(".min-hand");
     const hourHand = document.querySelector(".hour-hand");
 
